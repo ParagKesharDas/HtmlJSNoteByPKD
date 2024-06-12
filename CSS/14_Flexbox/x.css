@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    padding: 20px;
+}
+.con{
+ max-width: 800px;
+ min-height: 400px;
+ margin-inline: auto;
+ border: 3px solid rgb(221, 24, 24);
+ display: flex;
+ /* flex start means from left..othe rone is right  */
+ /* justify-content: flex-start;
+ gap:1rem; */
+ justify-content: space-evenly;
+ /* flex end means bottom ...but when column form then right */
+ align-items: center;
+ /* row will be column ..row,row-reverse */
+ /* flex-direction: row; */
+ gap: 1rem;
+ /* when window small it will wrap in many rows */
+ /* flex-wrap: wrap; */
+/* we an write 
+ */
+ flex-flow: row wrap;
+ align-content: space-evenly ;
+
+}
+.box{
+    min-width: 100px;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    /* row center  */
+    justify-content: center;
+    /* columns center  */
+    align-items: center;
+    flex-grow: 1;
+    /* flex-basis: 100px; */
+    /* flex-shrink: will work for nowrap ; */
+
+}
+
+.box:nth-child(2){
+    flex-grow: 2;
+}

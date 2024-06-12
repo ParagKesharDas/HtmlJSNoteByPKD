@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+.out{
+    border: 3px dashed black;
+    width: 75vh;
+    height: 85vh;
+    margin: 40px auto;
+    /* if inn have not relative pos cube will work here  */
+    /* position: relative; */
+}
+.inn{
+    border: 3px solid rgb(32, 3, 253);
+    width: 45vh;
+    height: 55vh;
+    margin: 20px auto;
+    /* cube will work here  */
+    position: relative;
+}
+.box{
+    width: 15px;
+    height: 15px;
+    color: wheat;
+    padding: 1rem;
+}
+.absolute{
+    background-color: red;
+    position: absolute;
+    /* static is default value  */
+    top:0%;
+    left:0;
+    /* opacity: 20%; */
+    /* if we dont mentaion nothing and use absolute position ..top and right or left it will work whole screeen */
+    /* we have to mention relative position where we want it  */
+}
+.relative{
+    background-color: blueviolet;
+    position: relative;
+    top:20%;
+    left: 0%;
+    /* work in inn box  */
+
+}
+.fixed{
+    background-color: green;
+    position: fixed;
+    top:10%;
+    left: 0;
+    /*work in whole window*/
+    /* fixed position even we scroll  */
+    
+}
+.sticky{
+    background-color: rgb(193, 19, 135);
+    position: sticky;
+    /* it will fixed to a certain position we wil maintion
+    stays in inn box  */
+    top:0;
+    
+    
+}

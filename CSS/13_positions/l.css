@@ -1,0 +1,51 @@
+body{
+    font-size: 1.5rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color:green;
+}
+header,footer {
+    color: aliceblue;
+    text-align: center;
+   
+    
+}
+header{
+    position: sticky;
+    top:0;
+    font-size: 5rem;
+    height: 100px;
+}
+footer{
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    font-size: 3rem;
+}
+a:visited{
+    color: aliceblue;
+}
+.bt{
+    background-color: aqua;
+    color: black;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top:30%;
+    /* z-index value will help who will be up in the page..  */
+    z-index: 1;
+
+}

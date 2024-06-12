@@ -1,0 +1,39 @@
+* {
+    /* universal selector  */
+    border: 2px solid purple;
+}
+/* look the border and understand that universal 
+selector works for every element..not like body selector  */
+body {
+    font-size: 10px;
+    border: 3px solid black;
+}
+
+/* element selector  */
+p {
+    color: red;
+}
+
+.gray {
+    color: aqua;
+}
+
+/* id selector is powerful than class selectors  */
+#black {
+    color: blue;
+}
+
+/* group selector  */
+h1,
+h2 {
+    color: green;
+}
+
+div p {
+    font-size: 20px;
+}
+
+
+
+/* in selection inheritation from parent class happens
+,waterfall proriti for same type of css  */

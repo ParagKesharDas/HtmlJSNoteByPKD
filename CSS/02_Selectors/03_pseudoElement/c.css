@@ -1,0 +1,17 @@
+
+/* A CSS pseudo-element is used to style specified parts of an element. */
+p::first-letter{
+  color: #ff0000;
+  font-variant: small-caps;
+}
+.red::first-line {
+    color: #ff0000;
+    font-variant: small-caps;   
+}
+/* .red::before {
+    content: ;
+  } */
+ .red::selection {
+    color: rgb(0, 30, 255);
+    background: yellow;
+  }

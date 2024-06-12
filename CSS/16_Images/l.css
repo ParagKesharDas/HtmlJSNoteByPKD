@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 200%;
+   
+}
+.bk{
+    background-color: aliceblue;
+    
+}
+/* scrren effect oin text   */
+.bk p{
+    font-size: 1500%;
+    text-align: center;
+    background-image: url('../16_Images/img/nn.png'),linear-gradient(to bottom,white,skyblue,blue);
+    /* linear-gradient(to,purple ,blue,skyblue,green,yellow,orange,red); */
+    background-repeat: no-repeat,no-repeat;
+    height: 100%;
+    background-size: 400px,100%;
+    text-transform: uppercase;
+   -webkit-background-clip:text;
+   color: rgba(0, 0, 0, 0);
+    
+}
+img{
+    display: block;
+}
+.picc{
+    width: 30%;
+    
+}
+.picc img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double rgb(174, 174, 174);
+    border-radius: 50%;
+}
+.exam {
+    margin-top: 1rem;
+    padding-left:20px ;
+    border: 2px solid red;
+}
+.exam img{
+    width: 10%;
+    height: auto;
+}
+.kk{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:30%;
+    background-color: rgba(0, 0, 0, 0.27);
+
+   
+}
+.pi{
+    background-color: bisque;
+    background-image: url('../16_Images/img/j.png');
+    background-repeat: no-repeat ;
+    background-position: top ;
+    background-size:cover;
+}
+.hi{
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}

@@ -1,0 +1,28 @@
+body{
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.block{
+    width: 20vw;
+    height: 20vw;
+    background-color: aqua;
+    padding: 1rem;
+    /* float: left; */
+}
+.left{
+    float: left;   
+    margin-right:1rem ;
+}
+.right{
+    float: right;   
+    margin-left:1rem ;
+}
+section{
+    background-color: aquamarine;
+    padding: 1rem;
+    border: 1px solid black;
+    /* to cover full section with background use or auto overflow  display flow-root */
+    /* overflow: auto; */
+    display: flow-root;
+
+}

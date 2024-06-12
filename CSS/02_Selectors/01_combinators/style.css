@@ -1,0 +1,35 @@
+/* There are four different combinators in CSS:
+
+1.descendant selector (space)
+2.child selector (>)
+3.adjacent sibling selector (+)
+4.general sibling selector (~) */
+
+/* 1 The following example selects all <p> 
+elements inside <div> elements: */
+
+div p {
+    background-color: yellow;
+  }
+
+
+  /*2 The child selector (>) selects all elements
+   that are the children of a specified element. */
+section > p {
+    background-color: rgb(255, 0, 0);
+  }
+
+
+  /* 3The adjacent sibling selector is used to select
+   an element that is directly after another specific element. */
+div + p {
+    background-color: green;
+    /* das is green because of waterfall rule which comes last that will apply 
+    paragrsaph 3 is p green becouse it just comes after div*/
+  }
+
+  /* The general sibling selector selects all elements
+   that are next siblings of a specified element. */
+   .red ~ p {
+    background-color: blue;
+  }

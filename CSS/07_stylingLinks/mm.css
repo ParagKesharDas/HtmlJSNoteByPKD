@@ -1,0 +1,27 @@
+body {
+    padding: 15%;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color:  rgb(127, 197, 255,0.5);
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover,
+a:focus {
+    color: rgb(127, 197, 255,0.9);
+    background-color: gold;
+}
+
+a:active {
+    color: beige;
+}
+
+
+/* this is proper order */

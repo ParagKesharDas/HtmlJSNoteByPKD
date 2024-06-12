@@ -1,0 +1,101 @@
+/* grid in grid  */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border-radius: 1000000px; */
+    align-content: center;
+    justify-content: center;
+}
+body{
+    min-height: 100vh;
+    /* padding: 20px; */
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    /* row-gap: 1rem;
+    column-gap: 1rem; */
+    gap: 0.5rem;
+    grid-auto-rows:45px auto 45px ;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn sb sb"
+    "ft ft ft ft ft ft ft ft ft";
+    
+}
+.el{
+    
+    color: aliceblue;
+    display:grid ;
+    place-content: center;
+}
+header{
+    grid-area:hd ;
+    background-color:rgb(240, 47, 111);
+    
+}
+footer{
+    grid-area: ft;
+    background-color: blueviolet;
+}
+main{
+    grid-area: mn;
+    
+}
+aside{
+    grid-area: sb;
+    background-color: green;
+    
+}
+.box{
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 0.5rem;
+    /* this is grid just to place contant in center  */
+    display: grid;    
+    align-content: center;
+    justify-content: center;
+}
+.con{
+    min-height: 400px;
+    display:grid ;
+    /* this will chage the allignment of boxes ...row or column  */
+    /* grid-auto-flow:column ; */
+    /* here we use fraction fr or px to give column a size  */
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: repeat(2,1fr 2fr );
+    /* or we can use :repeat(4 for no col,1fr for size)..here any col can empty */
+    /* row size will be 150 to large  */
+    grid-auto-rows: minmax(150px,auto);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    /* gap:; row+col */
+    
+}
+.box:first-child{
+    background-color: blue;
+    grid-column-start:2 ;
+    /* as we have four col it starts from 2nd col  */
+    grid-column-end:4 ;
+     /* as we have four col it ends from (4-1)th col  */
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+    /* as the first col has space 2,4 will take that place  */
+    /* shortcut  */
+    /* grid-row: 1/3;
+    grid-column: 2/4; */
+
+
+    /* just like flex grid has align-content,justify-content,place-content  */
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /*short cut place-content:center center ; */
+
+}
+.box:nth-child(2){
+    background-color: brown;
+    grid-column: 1/5;
+    grid-row: 3/4;
+}

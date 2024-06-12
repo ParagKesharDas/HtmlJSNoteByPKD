@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+ 
+}
+h1{
+    padding: 1rem 2rem;
+    background-color: rgb(72, 72, 72);
+    color: aliceblue;
+    border-radius: 1rem;
+}
+button{
+    margin-top: 1rem;
+    padding: .7rem 1.5rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    color: black;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    transition:background-color 0.2s ;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(255, 228, 197);
+}

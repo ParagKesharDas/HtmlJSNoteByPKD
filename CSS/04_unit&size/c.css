@@ -1,0 +1,26 @@
+*{
+    /* wild card selector ..selects all element  */
+    padding: 0;
+    margin: 0;
+    /* there are somee default vsalue */
+}
+p {
+    /* font-size: 13px; */
+    /* font-size: 1rem; */
+    font-size: 1rem;
+    /* if the default size is 16 em will amplefy size  ...2em means 2*16=32*/
+    width: 40ch;
+    /* 30 char before line wraps  */
+    
+}
+body{
+    min-height: 100vh;
+    /* sometimes we need full page as body then use it  */
+}
+h1 {
+    padding: .5em;
+    /* fontsize*0.5 pdding  */
+    border: 2px solid greenyellow;
+    width: 20%;
+
+}

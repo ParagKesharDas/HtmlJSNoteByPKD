@@ -1,0 +1,32 @@
+<!-- Ajax stands for Asynchronous JavaScript and XML. 
+It is a technique for creating fast and dynamic web pages
+by exchanging small amounts of data with the server, instead
+of reloading the entire page.
+This allows web pages to update faster and more efficiently,
+providing a more seamless user experience.
+Ajax is often used in conjunction with other technologies 
+such as XML or JSON to transfer data between the web page and the server. -->
+
+
+<!-- 
+why we use ajax over xml??
+Ajax can be used with both XML and JSON data formats. XML is a markup language that is used to structure data, while JSON (JavaScript Object Notation) is a lightweight data interchange format that is easier for humans to read and write and for machines to parse and generate.
+
+JSON is often preferred over XML because it is less verbose and more efficient to parse. JSON objects can be easily converted to JavaScript objects, which can be manipulated directly in the browser, reducing the need for extra parsing on the client side. JSON is also supported by a wider range of languages and platforms than XML.
+
+Additionally, XML requires more code to handle than JSON because it's a markup language, while JSON is a data format. So by using JSON, developers can save time and effort by not having to write and maintain additional code for parsing and manipulating XML data.
+
+Overall, JSON is a more suitable data format for use with Ajax because it is simpler, more lightweight, and more easily integrated with JavaScript. -->
+
+
+
+<!-- 3 ways to create and send request to server
+1.xmlHTTPRequest(old)
+2.fetch API(new)
+3.axios(3rd party library) -->
+
+XHR stands for XMLHttpRequest. It is a JavaScript object that allows web developers to send and receive data from a server using JavaScript, without having to refresh the entire webpage. XHR is the underlying technology that is used to implement the Ajax technique.
+
+Using XHR, a web developer can create a JavaScript function that sends a request to the server, receives a response, and updates the web page dynamically, without having to reload it. This allows for faster and more efficient web page updates and a more seamless user experience.
+
+XHR was first introduced by Microsoft in the late 1990s and is now supported by all major web browsers. With XHR, developers can implement a wide range of features like updating a specific part of web page, request and update data, create single page application etc.

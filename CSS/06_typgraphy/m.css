@@ -1,0 +1,26 @@
+/* typography is way to arrange and present text 
+ */
+
+ body{
+    padding: 15%;
+    font-size: 1.2rem;
+ }
+ p{
+    text-decoration: underline;
+    /* trasform means captical ,small,first letter cap etc  */
+    text-transform: capitalize;
+    /* text-align: justify means both side will be straight  */
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+
+    word-spacing: .5em;
+    /* for bold to light  */
+    font-weight: 800;
+    /* default serif..multiple name wriiten in family becuse if any thing is not avalable next one will work  */
+    font-family: cursive;
+ }
+ input,button {
+    font: inherit;
+ }
